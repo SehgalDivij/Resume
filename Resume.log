@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.3)  24 DEC 2017 01:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.3)  21 FEB 2018 02:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -190,41 +190,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 13.
 
-Overfull \hbox (2.14116pt too wide) in paragraph at lines 34--35
-[]\OT1/cmr/m/n/10 Architecture De-sign, De-vel-op-ment and De-ploy-ment on Clie
-nt Project - Tower
+Overfull \hbox (7.75128pt too wide) in paragraph at lines 34--35
+[]\OT1/cmr/m/n/10 Developed a POC for a real time video stream-ing ap-pli-ca-ti
+on over RTP/RTMP
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 90.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 102.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 107.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
  4301 strings out of 494953
  64386 string characters out of 6180977
- 144207 words of memory out of 5000000
+ 145207 words of memory out of 5000000
  7616 multiletter control sequences out of 15000+600000
  4553 words of font info for 17 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,8n,21p,323b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,21p,405b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Resume.pdf (2 pages, 61034 bytes).
+Output written on Resume.pdf (2 pages, 61434 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
