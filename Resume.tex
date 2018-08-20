@@ -1,4 +1,3 @@
-% LaTeX file for resume 
 % This file uses the resume document class (res.cls)
 
 \documentclass[margin]{res}
@@ -9,7 +8,7 @@
 \setlength{\textheight}{10in} % increase text height to fit resume on 1 page
 \begin{document}  
 \name{Divij Sehgal}
-\address { A-503, Palladium Grand Society, Dhanori, Pune - 411015 (881-6974-354) \\ Email: \href {mailto:divij.sehgaal7@gmail.com}{divij.sehgaal7@gmail.com} |  \href {http://www.linkedin.com/in/sehgaldivij/}{LinkedIn} | \href {http://www.github.com/SehgalDivij/} {Github}}
+\address { \href {mailto:divij.sehgaal7@gmail.com}{divij.sehgaal7@gmail.com} |  \href {http://www.linkedin.com/in/sehgaldivij/}{LinkedIn} | \href {http://www.github.com/SehgalDivij/} {Github}}
 \begin{resume}
 
 \section{EDUCATION}       
@@ -24,22 +23,31 @@
 \section{EXPERIENCE}      
                   \begin{tabular}{p{3.5in} r} % setup 2 columns, first
 					    % is 3 inches wide
-                  Full Stack Developer, FlytBase Inc, Pune & Oct, 2017 - Present
+                  Full Stack Developer, FlytBase Inc, Pune & Oct, 2017 - May, 2018
                   \end{tabular}	
                    \begin{itemize} % \item[] prevents a bullet from appearing
                     \item[] Development of web related software centered around drone based applications.
+                  	\item[] Analysis, design, development, testing and deployment on various Internal as well as Custom Software Projects.
                     \begin{itemize}
-                      \item Bug Fixes and Flytbase API Documentation Updates.
+                      \item Bug Fixes and Updates to the Flytbase API Documentation.
                       \item Improvements and Bug Fixes to Flytbase's Cloud Architecture and Web Applications.
-                      \item Developed a POC for a real time video streaming application over RTP/RTMP protocols built over the Wowza Streaming Engine. The application lets a drone user stream live video from a camera present on the drone to the cloud, from where it is streamed to users on demand.
-                      \item Analysis, design, development and deployment on various Internal as well as Custom Software Projects.
-                    \end{itemize}
-       \end{itemize} 
+                      \item Revamp and Migration of Flytbase's cloud and APIs backend towards a microservices based architecture using Django as the main web application framework, following API Gateway Pattern for access to the backend and Database per service pattern for persistence purposes.
+                      \item Developed a Proof-of-Concept for real time video streaming application over RTP/RTMP protocols built over the Wowza Streaming Engine.
+
+                      The application lets a drone user stream live video from a camera present on the drone to the cloud, from where it is streamed to users on demand on the browser using jwPlayer as well as available for stand alone devices via an open RTMP stream.
+                      \item Developed a platform for drone based inspection of Telecom Towers in the United States. 
+            	      \begin{itemize} 
+            	      	\item The platform works using abstractions called Jobs and Bids. Bids are placed for Jobs created by users and based on certain configuration parameters, the Job can either be auto-assigned on the first bid or multiple entities can compete for a Job, which the creating entity then takes care of reviewing and assigning.
+                      	\item The application was developed and deployed in a multi-container setup and utilizes Python/Django/Numpy/Gunicorn, Javascript 
+                      	frameworks such as jQuery, CesiumJS, MySQL(MariaDB) for persistence as well as Amazon S3 for Blob Storage.
+            	      \end{itemize}
+                	\end{itemize}
+       	\end{itemize} 
         \begin{tabular}{p{3.5in} r}
                 Intern, HT Media, New Delhi & Jan-July, 2017  
         \end{tabular}	
 		  \begin{itemize}
-                   \item[] Web application development using The Django Framework, Celery, AngularJS, MySQL, ELK Stack, Postfix MTA. 
+                   \item[] Web development using The Django Framework, Celery, AngularJS, MySQL, ELK Stack, Postfix MTA.
                   \end{itemize}
                  \begin{tabular}{p{3.5in} r} % one column is 3 inches wide
                   Summer Intern, Bharat Petroleum, Mumbai &  June-August, 2016
@@ -47,49 +55,62 @@
                   \begin{itemize}
                    \item[] Development of backend components based on Enterprise Java as well as Development of a Push Notification Mini-Platform built using Firebase and Android SDK.
                   \end{itemize}
-                 \begin{tabular}{p{3.5in} r} % one column is 3 inches wide
-                  Core Java Training Course, NIIT, Mumbai & June-August, 2015
-                 \end{tabular}
-                  \begin{itemize}
-                   \item[] Core Java Fundamentals Training course undertaken at NIIT, Mumbai.
-                  \end{itemize}
 
 \section{SKILLS} 
 \normalsize{\section{Programming}}
                  \begin{tabular}{p{5in} r}
-                 Python, Java, JavaScript, C++, MySQL, PostgreSQL, SQLite, MySQL, HTML, CSS.
+                 Python, Java, JavaScript, C++, MySQL, PostgreSQL, SQLite, HTML, CSS.
                  \end{tabular}
 \normalsize{\section{Frameworks and Libraries}} 
                  \begin{tabular}{p{5in} r}
-                  Django, DjangoRestFramework, jQuery, AngularJS, Bootstrap, Android SDK and related tools - Picasso, SugarORM, Retrofit etc, NumPy, Pandas, Scikit-learn, Flask.
+                  Django, DjangoRestFramework, jQuery, AngularJS(1, 2+), Bootstrap, Android SDK and related tools - Picasso, SugarORM, Retrofit etc, NumPy, Pandas, Flask.
                   \end{tabular}
 \normalsize{\section{Familiar}}
 	           \begin{tabular}{p {5in} r}
-                   Linux/Ubuntu, Docker, Elasticsearch, ELK Stack, API Development, Flask, Asynchronous applications using Celery and RabbitMQ, Nginx, Apache, OneSignal, Firebase Cloud Messaging, Postfix MTA, AWS S3, EC2, Git, Containerization, Data Visualization - Chart.js, Matplotlib, Octave, Web Scraping, Video Streaming over RTMP/RTP, TDD Methodology, Scrum Methodology, Jenkins, LaTeX.
+                   Linux/Ubuntu, Docker, Elasticsearch, ELK Stack, API Development, Flask, Asynchronous applications using Celery and RabbitMQ, Nginx, Apache, OneSignal, Firebase Cloud Messaging, Postfix MTA, AWS S3, EC2, Git, Containerization, Data Visualization - Chart.js, Matplotlib, Octave, Web Scraping, Video Streaming over RTMP/RTP, TDD Methodology, Scrum Methodology, Jenkins, LaTeX, Typescript, Distributed Systems.
                    \end{tabular}
 \normalsize{\section{Other Interests}}
-                  \begin{tabular}{p {5in} r}
-                  Building multi-container applications, Machine Learning Techniques, Computer Vision.
-
-                  Completed Coursera's Machine Learning Course with an aggregate score of 96\%.
-                  \end{tabular}
+               \begin{tabular}{p {5in} r}
+                   Distributed Systems, Blockchain, Machine Learning, Conversational Bots, Computer Vision, Deep Learning.
+                   \end{tabular}
+               \linebreak
+                \begin{tabular}{p {5in} r}
+                    Completed Coursera's Machine Learning Course with an aggregate score of 96\%.
+                    \end{tabular}
+                \linebreak
+                \begin{tabular}{p {5in} r}
+                    Exploring new technologies.
+                    \end{tabular}
+\normalsize{\section{Currently Learning}}
+		\begin{tabular}{p {5in} r}
+                CNNs for Visual Recognition via Stanford's CS231n Course Material
+                \end{tabular}
+                \linebreak
+                \begin{tabular}{p {5in} r}
+                Using Tensorflow for Deep learning via Stanford's CS20 Course Material
+                \end{tabular}
 \section{PROJECTS}
-				 \begin{tabular}{p{5in} r} % one column is 3 inches wide
+		 \begin{tabular}{p{5in} r} % one column is 3 inches wide
                  College Notification System
                  \end{tabular}
                   \begin{itemize}
                    \item[] Utilizing the power of Push Notifications and Android, built a mini Push Notification Platform for management of flow of information all around the Campus, among Student and Faculty Members.
                    \item[] Role: Android app development, frontend, backend development using Android SDK, AngularJS and Django.
                   \end{itemize}
-				 \begin{tabular}{p{5in} r} % one column is 3 inches wide
-                 \href {www.github.com/SehgalDivij}{Github}
+		\begin{tabular}{p{5in}r}
+		 Experimental: Bistro Bookie Bot
+		 \end{tabular}
+		  \begin{itemize}
+		   \item[] A simple, command based restaurant reservation system built using Django, Telegram, Google AppEngine, Google Datastore and Google Memcached.
+		   \item[] Uses an interface similar to the one used by Apps such as Zomato and Swiggy to chat with their customer support, based on commands and user inputs in ways similar to those menus.
+		   \item[] Bot is deployed on Telegram as bistro\_bookie\_bot and is currently offline. Leave an email, if you want to see how it works and I'll try bringing it back up.
+		  \end{itemize}
+		\begin{tabular}{p{5in} r} % one column is 3 inches wide
+                 \href {http://www.github.com/SehgalDivij/} {Github: SehgalDivij}
                  \end{tabular}
-                  \begin{itemize}
-                   \item[] Various Repos and Gists are available under the above Github handle.
-                  \end{itemize}
 \section{ACTIVITIES}
  \begin{itemize}
- \item Presented a 30-min talk on Importance of CI/CD and why Monoliths are overrated at a local Python Meetup.
+ \item Presented a 30 minute tech-talk on Importance of CI/CD at a local Python Meetup. The audience was mostly recent grads and college students.
  \end{itemize}
  \begin{itemize}
  \item 1st in School, National Informatics Olympiad, 2011
